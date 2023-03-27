@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans Extrabold", sans-serif;
+}
+.body{
+    background-color: #daf578;
+}
+
+.main{
+    display: inline-block;
+    justify-content: center;
+    align-items: center
+
+
+}
+.input{
+    background-color:rgb(243, 240, 240) ;
+    width: 62em;
+    height: 5em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    border-radius: 10px;
+    padding: 25px ;
+    margin: 15px;
+    display: flex;
+    justify-content:space-between;
+    gap: 1em; 
+}
+.title{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    margin-left: 20px;
+    text-transform: uppercase
+}
+#item{
+    height: 2.5em;
+    width: 21em;
+    border-radius: 10px;
+    background-color:rgb(180, 176, 176); 
+    color: #ffff;
+    font-size: 20px
+
+}
+#time{
+    height: 2.5em;
+    width: 15em;
+    border-radius: 5px;
+    background-color:rgb(180, 176, 176); 
+    color: #ffff;
+    font-size: 20px
+    
+    
+}
+button{
+    height: 1.5em;
+    width: 4em;
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: #daf578;
+    border: none;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+
+}
+
+li{
+   background-color:rgb(180, 176, 176); 
+   padding: 0.5rem;
+   color: #00343b;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   margin-left: 20px;
+   box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+   
+
+}
+li input:nth-child(1){
+   font-size:25px;
+   text-align: center;
+   color: #00343b;
+   border-radius: 10px;
+   background-color:rgb(243, 240, 240);
+   
+
+}
+li input:nth-child(2){
+   font-size:25px;
+   text-align: center;
+   color: #00343b;
+   background-color:rgb(243, 240, 240) ;
+   border-radius: 10px;
+   
+}
+li p:nth-child(3){
+   font-size: 20px;
+}
+li input:nth-child(4){
+   font-size:20px;
+   text-align: center;
+   color: #00343b;
+   width: 20px;
+   margin-right: 10px;
+   
+}
+li p:nth-child(5){
+   font-size: 20px;
+}
+li input:nth-child(6){
+   font-size:20px;
+   text-align: center;
+   color: #00343b;
+   width: 20px;
+   margin-left: 10px;
+}
+li p:nth-child(7){
+   font-size: 20px;
+   padding: 1px;
+}
+li input:nth-child(8){
+   font-size:20px;
+   text-align: center;
+   color: #00343b;
+   width: 30px;
+   margin-left: -10px;
+   
+}
+li button{
+   all: unset; 
+   background-color: #daf578;
+   text-align: center;
+   font-size: 12px ;
+   border-radius: 2px; 
+   transition: all 0.7s ease;
+   width: 46px;
+   height: 40px;
+   border-radius: 10px ;
+   margin-right: 7px;
+}
